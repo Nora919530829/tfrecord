@@ -1,6 +1,7 @@
 # TFRecord
 
 ### 文件夹构成
+```
    mouth____| |____README.md
 			| |____tfrecord_reader.py
 			| |____tfrecord_writer.py
@@ -8,29 +9,37 @@
 				| |____223smile.jpg
 				| |____86neutral.jpg
 				   ...
+```
 
 ### 我的运行环境
+
 Python: 3.6.5
+
 tf.__version__: '1.8.0'
 
 ### 运行方法
 **1. 下载 mouth 数据**
+
 1.1 数据集下载地址
+
 链接：https://pan.baidu.com/s/1xPbIcPtYu4e-SYHJ4yu_8A 提取码：9x81 
 
 1.2 数据集介绍
+
 	- 这是一个嘴唇数据集，包括无状态的嘴唇和微笑状态的嘴唇。
 	- 包括500张无状态的嘴唇和500张微笑的嘴唇，用于分类等任务.
 	- 所有图片的尺寸为60x60。
 	- 0 无状态	； 1 微笑
 
 **2. Write data into a TFRecords file**
+
 实验脚本：
 ```
 python tfrecord_writer.py
 ```
 
 **3. Read the TFRecords file**
+
 实验脚本：
 ```
 python tfrecord_reader.py
