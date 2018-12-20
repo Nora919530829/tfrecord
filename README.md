@@ -9,6 +9,10 @@
 				| |____86neutral.jpg
 				   ...
 
+### 我的运行环境
+Python: 3.6.5
+tf.__version__: '1.8.0'
+
 ### 运行方法
 **1. 下载 mouth 数据**
 1.1 数据集下载地址
@@ -45,4 +49,5 @@ python tfrecord_reader.py
 4. http://www.machinelearninguru.com/deep_learning/tensorflow/basics/tfrecord/tfrecord.html
 	- 英文How to write into and read from a TFRecords file in TensorFlow
 	- 利用一个例子详细讲解，也非常非常好
+5. 当然，github上搜索tfrecord也可以看到很多优秀的关于TFRecords的代码
 	
